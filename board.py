@@ -138,7 +138,7 @@ def game_turn_two_people():
         # spock
     elif person_player2.move == Player.user_choice_list[4] and person_player.move == Player.user_choice_list[
         0] or person_player2.move == Player.user_choice_list[4] and person_player.move == Player.user_choice_list[2]:
-        person_player.win_counter += 1
+        person_player2.win_counter += 1
         print(f'{person_player2.move} beat {person_player.move}, {person_player2.name} wins this round')
     elif person_player2.move == Player.user_choice_list[4] and person_player.move == Player.user_choice_list[
         1] or person_player2.move == Player.user_choice_list[4] and person_player.move == Player.user_choice_list[3]:
